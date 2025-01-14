@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4df91e4c7891cb9b9a981dc375765d28 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4df91e4c7891cb9b9a981dc375765d28" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4df91e4c7891cb9b9a981dc375765d28 = L.map(
+                "map_4df91e4c7891cb9b9a981dc375765d28",
+                {
+                    center: [30.2672, -97.7431],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_34f97b9f949b1c8d66ae33f4bbea1f61 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_34f97b9f949b1c8d66ae33f4bbea1f61.addTo(map_4df91e4c7891cb9b9a981dc375765d28);
+        
+    
+            var marker_4e526464a17c230a247a46320e530713 = L.marker(
+                [30.272010280064286, -97.71751153105374],
+                {}
+            ).addTo(map_4df91e4c7891cb9b9a981dc375765d28);
+        
+    
+        var custom_icon_1c05f7c79ba3de305639d5d3d0ec9620 = L.icon({"iconAnchor": [15, 30], "iconSize": [30, 30], "iconUrl": "https://images.rawpixel.com/image_png_400/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L2pvYjk2NC0wMTItcC5wbmc.png"});
+        marker_4e526464a17c230a247a46320e530713.setIcon(custom_icon_1c05f7c79ba3de305639d5d3d0ec9620);
+        
+    
+        var popup_6b37ee9421cb25897a376ff953611e0a = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_d8339cc5d67a382efc4388cb6d5ced8c = $(`<div id="html_d8339cc5d67a382efc4388cb6d5ced8c" style="width: 100.0%; height: 100.0%;"><b>East Hive (Not exact location)</b> <br>Coordination, cooking, distro <br>Contact:<br>Slack: @EastHive <br>Signal:@EastHive</div>`)[0];
+                popup_6b37ee9421cb25897a376ff953611e0a.setContent(html_d8339cc5d67a382efc4388cb6d5ced8c);
+            
+        
+
+        marker_4e526464a17c230a247a46320e530713.bindPopup(popup_6b37ee9421cb25897a376ff953611e0a)
+        ;
+
+        
+    
+    
+            var marker_ff3703627b530922665f35697fd0e485 = L.marker(
+                [30.21697525907292, -97.77885107469896],
+                {}
+            ).addTo(map_4df91e4c7891cb9b9a981dc375765d28);
+        
+    
+        var custom_icon_0a55924d7abfad8fe4a3404977eca116 = L.icon({"iconAnchor": [15, 30], "iconSize": [30, 30], "iconUrl": "https://images.rawpixel.com/image_png_400/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L2pvYjk2NC0wMTItcC5wbmc.png"});
+        marker_ff3703627b530922665f35697fd0e485.setIcon(custom_icon_0a55924d7abfad8fe4a3404977eca116);
+        
+    
+        var popup_147ae15771a3ea03985b4016faee008d = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_c099188efef6cc39ff04d766a6f20bae = $(`<div id="html_c099188efef6cc39ff04d766a6f20bae" style="width: 100.0%; height: 100.0%;"><b>South Hive (Not exact location)</b> <br>Coordination, cooking, distro <br>Contact:<br>Slack: @SouthHive <br>Signal:@SouthHive</div>`)[0];
+                popup_147ae15771a3ea03985b4016faee008d.setContent(html_c099188efef6cc39ff04d766a6f20bae);
+            
+        
+
+        marker_ff3703627b530922665f35697fd0e485.bindPopup(popup_147ae15771a3ea03985b4016faee008d)
+        ;
+
+        
+    
+    
+            var marker_b14a6ed4a324b6f025a998330141a614 = L.marker(
+                [30.319074618816682, -97.72829152295382],
+                {}
+            ).addTo(map_4df91e4c7891cb9b9a981dc375765d28);
+        
+    
+        var custom_icon_3e7d192fe9e41acea8aa54f19d915d15 = L.icon({"iconAnchor": [15, 30], "iconSize": [30, 30], "iconUrl": "https://images.rawpixel.com/image_png_400/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L2pvYjk2NC0wMTItcC5wbmc.png"});
+        marker_b14a6ed4a324b6f025a998330141a614.setIcon(custom_icon_3e7d192fe9e41acea8aa54f19d915d15);
+        
+    
+        var popup_7b58cc1769ed59fae99a12b351e5df14 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_b0489f8f1f6f6f70ef3db26a52eefe3e = $(`<div id="html_b0489f8f1f6f6f70ef3db26a52eefe3e" style="width: 100.0%; height: 100.0%;"><b>Central Hive (Not exact location)</b> <br>Coordination, cooking, distro <br>Contact:<br>Slack: @CentralHive <br>Signal:@CentralHive</div>`)[0];
+                popup_7b58cc1769ed59fae99a12b351e5df14.setContent(html_b0489f8f1f6f6f70ef3db26a52eefe3e);
+            
+        
+
+        marker_b14a6ed4a324b6f025a998330141a614.bindPopup(popup_7b58cc1769ed59fae99a12b351e5df14)
+        ;
+
+        
+    
+    
+            var marker_766b1d06debce28814fa3ccc80d1761f = L.marker(
+                [30.41353953568781, -97.68427925143202],
+                {}
+            ).addTo(map_4df91e4c7891cb9b9a981dc375765d28);
+        
+    
+        var custom_icon_287b36cf97bc013684045c157cbcb062 = L.icon({"iconAnchor": [15, 30], "iconSize": [30, 30], "iconUrl": "https://images.rawpixel.com/image_png_400/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L2pvYjk2NC0wMTItcC5wbmc.png"});
+        marker_766b1d06debce28814fa3ccc80d1761f.setIcon(custom_icon_287b36cf97bc013684045c157cbcb062);
+        
+    
+        var popup_2b9b8151f619b20ab52ee989851fd76f = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_9196e8388ae036e4026f5c556b1602ba = $(`<div id="html_9196e8388ae036e4026f5c556b1602ba" style="width: 100.0%; height: 100.0%;"><b>North Hive (Not exact location)</b> <br>Coordination, cooking, distro <br>Contact:<br>Slack: @NorthHive <br>Signal:@NorthHive</div>`)[0];
+                popup_2b9b8151f619b20ab52ee989851fd76f.setContent(html_9196e8388ae036e4026f5c556b1602ba);
+            
+        
+
+        marker_766b1d06debce28814fa3ccc80d1761f.bindPopup(popup_2b9b8151f619b20ab52ee989851fd76f)
+        ;
+
+        
+    
+    
+            var marker_1f3b15cb8e307435e8b33d33dba416c6 = L.marker(
+                [30.38048881364346, -97.68539882034327],
+                {}
+            ).addTo(map_4df91e4c7891cb9b9a981dc375765d28);
+        
+    
+        var custom_icon_9e24de27fb77432da4cc4a7ea2532daa = L.icon({"iconAnchor": [15, 30], "iconSize": [30, 30], "iconUrl": "https://openclipart.org/download/266028/ChurchAvatar.svg"});
+        marker_1f3b15cb8e307435e8b33d33dba416c6.setIcon(custom_icon_9e24de27fb77432da4cc4a7ea2532daa);
+        
+    
+        var popup_12459ee974d20136c572f82186494a1f = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_43e1fc63169e02c592417f7ee4ffc5c1 = $(`<div id="html_43e1fc63169e02c592417f7ee4ffc5c1" style="width: 100.0%; height: 100.0%;"><b>St Mark United Methodist Church</b> <br> 601 W Braker Ln<br>Austin, TX 78753 <b> Donations: <br> Hours: ---- <br>Shelter<br>Hours: -----<br>Days: ----- <br> Contact: </div>`)[0];
+                popup_12459ee974d20136c572f82186494a1f.setContent(html_43e1fc63169e02c592417f7ee4ffc5c1);
+            
+        
+
+        marker_1f3b15cb8e307435e8b33d33dba416c6.bindPopup(popup_12459ee974d20136c572f82186494a1f)
+        ;
+
+        
+    
+    
+            var marker_03c751fdecc80956a11cc164bc8273b7 = L.marker(
+                [30.317052810379195, -97.69242430622069],
+                {}
+            ).addTo(map_4df91e4c7891cb9b9a981dc375765d28);
+        
+    
+        var custom_icon_5328a928c308662e31044de96259dddd = L.icon({"iconAnchor": [15, 30], "iconSize": [30, 30], "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNKVS3fH5bkKr59LkSd66wO_ljAukXwHWP3Q\u0026s"});
+        marker_03c751fdecc80956a11cc164bc8273b7.setIcon(custom_icon_5328a928c308662e31044de96259dddd);
+        
+    
+        var popup_9167513abef35257a8f6adb3a4d9492a = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_379f2f22302cb2a40e0863219b2dafac = $(`<div id="html_379f2f22302cb2a40e0863219b2dafac" style="width: 100.0%; height: 100.0%;"><b>Memorial United Methodist Church</b> <br> 6100 Berkman Dr, Austin, TX 78723 <b> Donations: <br> Hours: ---- <br> Contact: </div>`)[0];
+                popup_9167513abef35257a8f6adb3a4d9492a.setContent(html_379f2f22302cb2a40e0863219b2dafac);
+            
+        
+
+        marker_03c751fdecc80956a11cc164bc8273b7.bindPopup(popup_9167513abef35257a8f6adb3a4d9492a)
+        ;
+
+        
+    
+    
+            var marker_21af2aaf2c4a287f34a32909d3b70f9e = L.marker(
+                [30.278788809077557, -97.68693683558189],
+                {}
+            ).addTo(map_4df91e4c7891cb9b9a981dc375765d28);
+        
+    
+        var custom_icon_f57d79583afe3fc585af329130289f93 = L.icon({"iconAnchor": [15, 30], "iconSize": [30, 30], "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNKVS3fH5bkKr59LkSd66wO_ljAukXwHWP3Q\u0026s"});
+        marker_21af2aaf2c4a287f34a32909d3b70f9e.setIcon(custom_icon_f57d79583afe3fc585af329130289f93);
+        
+    
+        var popup_8fa5c1d00109a122466047444ff10e01 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_7379e37a17155dce6ed9180077a3656b = $(`<div id="html_7379e37a17155dce6ed9180077a3656b" style="width: 100.0%; height: 100.0%;"><b>Hungry Hill Foundation</b> <br> 1189 Springdale Rd <br> Austin, TX 78721 <b> Donations: <br> Hours: ---- <br> Contact: </div>`)[0];
+                popup_8fa5c1d00109a122466047444ff10e01.setContent(html_7379e37a17155dce6ed9180077a3656b);
+            
+        
+
+        marker_21af2aaf2c4a287f34a32909d3b70f9e.bindPopup(popup_8fa5c1d00109a122466047444ff10e01)
+        ;
+
+        
+    
+</script>
+</html>
