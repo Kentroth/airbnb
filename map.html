@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_499a3e04905b6b03064f5c09be357f10 {
+                #map_936fb90522f88ff9ecc36e455b8ee217 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,16 +39,34 @@
 <body>
     
     
-            <div class="folium-map" id="map_499a3e04905b6b03064f5c09be357f10" ></div>
+    <div style="position: fixed; top: 80px; left: 10px;
+                width: 300px; background-color: rgba(255,255,255,0.8); z-index:9999;
+                padding: 10px; border-radius: 10px; border: 1px solid grey; text-align: center;">
+        <h4>Austin Mutual Aid Winter Activation</h4>
+        <h5><i>Updated 1/13/25 @ 4pm</i></h5>
+        <p style="text-align: left;">
+            Sample Text: Due to the forecasted extreme cold weather conditions expected to impact our area, the City of Austin has activated several cold weather shelters for residents who require a safe and warm place to stay....
+            <ul>
+            <br>
+            <b>Important Links</b><br>
+                <li><a href="https://docs.google.com/spreadsheets/d/1uEj9iL9DJyCstrmy2Y1aPkhjR0hJp0iSQnIG4OnXj4E/edit?gid=0#gid=0" target="_blank">Cooking Signup</a></li>
+                <li>Volunteer Sign Up</li>
+                <li>City of Austin Shelters</li>
+                <li><a href="https://forms.gle/2BSR7WQ8PNxe4DSY7" target="_blank">Submit Volunteer Hours</a></li>
+            </ul>
+        </p>
+    </div>
+    
+            <div class="folium-map" id="map_936fb90522f88ff9ecc36e455b8ee217" ></div>
         
 </body>
 <script>
     
     
-            var map_499a3e04905b6b03064f5c09be357f10 = L.map(
-                "map_499a3e04905b6b03064f5c09be357f10",
+            var map_936fb90522f88ff9ecc36e455b8ee217 = L.map(
+                "map_936fb90522f88ff9ecc36e455b8ee217",
                 {
-                    center: [30.2672, -97.7431],
+                    center: [30.27692319065153, -97.73954445713557],
                     crs: L.CRS.EPSG3857,
                     zoom: 12,
                     zoomControl: true,
@@ -60,185 +78,185 @@
 
         
     
-            var tile_layer_98f1f502698466dbf96ed34987bcc2bd = L.tileLayer(
+            var tile_layer_b101a33cfe2b0a14ed7586d1aaf0d319 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_98f1f502698466dbf96ed34987bcc2bd.addTo(map_499a3e04905b6b03064f5c09be357f10);
+            tile_layer_b101a33cfe2b0a14ed7586d1aaf0d319.addTo(map_936fb90522f88ff9ecc36e455b8ee217);
         
     
-            var marker_8c0dcda95c37128e2d2963bdf1bf04fe = L.marker(
+            var marker_df024c4ffe1dc69a9391d7c97727f39d = L.marker(
                 [30.272010280064286, -97.71751153105374],
                 {}
-            ).addTo(map_499a3e04905b6b03064f5c09be357f10);
+            ).addTo(map_936fb90522f88ff9ecc36e455b8ee217);
         
     
-        var custom_icon_1bafddb904e3bf3af70512d53758c0e6 = L.icon({"iconAnchor": [15, 30], "iconSize": [30, 30], "iconUrl": "https://images.rawpixel.com/image_png_400/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L2pvYjk2NC0wMTItcC5wbmc.png"});
-        marker_8c0dcda95c37128e2d2963bdf1bf04fe.setIcon(custom_icon_1bafddb904e3bf3af70512d53758c0e6);
+        var custom_icon_5f55d23394bad2c024caf45171c8d53d = L.icon({"iconAnchor": [15, 30], "iconSize": [30, 30], "iconUrl": "https://images.rawpixel.com/image_png_400/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L2pvYjk2NC0wMTItcC5wbmc.png"});
+        marker_df024c4ffe1dc69a9391d7c97727f39d.setIcon(custom_icon_5f55d23394bad2c024caf45171c8d53d);
         
     
-        var popup_cba11a9418c5e7989a2c37023d699b4d = L.popup({"maxWidth": 200});
+        var popup_0483a9f607082d1e0bfa77c87c23e294 = L.popup({"maxWidth": 200});
 
         
             
-                var html_f19fbed2adf3264daa17752fe8dfe33e = $(`<div id="html_f19fbed2adf3264daa17752fe8dfe33e" style="width: 100.0%; height: 100.0%;">             <b>East Side Hub</b><br>             <i>(Location Not Exact)</i><br>             <i>Updated 1/13/24</i><br>             <strong>Volunteers Needed Ongoing:</strong><br>             • Sorting and organizing supplies<br>             • Cooking and plating food <a href='https://docs.google.com/spreadsheets/d/1uEj9iL9DJyCstrmy2Y1aPkhjR0hJp0iSQnIG4OnXj4E/edit?usp=drivesdk' target='_blank'>Cooking Signup Log</a><br>             • Pickup for distribution<br>             • Moving donations to hubs<br>             <strong>Contact Info:</strong><br>             • Slack: @HiveEast<br>             • Signal: @HiveEast             </div>`)[0];
-                popup_cba11a9418c5e7989a2c37023d699b4d.setContent(html_f19fbed2adf3264daa17752fe8dfe33e);
+                var html_817592ae3c66ecff57f713727bbdb9c7 = $(`<div id="html_817592ae3c66ecff57f713727bbdb9c7" style="width: 100.0%; height: 100.0%;">             <b>East Side Hub</b><br>             <i>(Location Not Exact)</i><br>             <i>Updated 1/13/24</i><br>             <strong>Volunteers Needed Ongoing:</strong><br>             • Sorting and organizing supplies<br>             • Cooking and plating food <a href='https://docs.google.com/spreadsheets/d/1uEj9iL9DJyCstrmy2Y1aPkhjR0hJp0iSQnIG4OnXj4E/edit?usp=drivesdk' target='_blank'>Cooking Signup Log</a><br>             • Pickup for distribution<br>             • Moving donations to hubs<br>             <strong>Contact Info:</strong><br>             • Slack: @HiveEast<br>             • Signal: @HiveEast             </div>`)[0];
+                popup_0483a9f607082d1e0bfa77c87c23e294.setContent(html_817592ae3c66ecff57f713727bbdb9c7);
             
         
 
-        marker_8c0dcda95c37128e2d2963bdf1bf04fe.bindPopup(popup_cba11a9418c5e7989a2c37023d699b4d)
+        marker_df024c4ffe1dc69a9391d7c97727f39d.bindPopup(popup_0483a9f607082d1e0bfa77c87c23e294)
         ;
 
         
     
     
-            var marker_f73fff9ff61c6d3d31d560c6f04369ed = L.marker(
+            var marker_3599648254c502cbc07158af3a3277bd = L.marker(
                 [30.21697525907292, -97.77885107469896],
                 {}
-            ).addTo(map_499a3e04905b6b03064f5c09be357f10);
+            ).addTo(map_936fb90522f88ff9ecc36e455b8ee217);
         
     
-        var custom_icon_a79031eeb5189dffb0fb7ff3d4aa3523 = L.icon({"iconAnchor": [15, 30], "iconSize": [30, 30], "iconUrl": "https://images.rawpixel.com/image_png_400/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L2pvYjk2NC0wMTItcC5wbmc.png"});
-        marker_f73fff9ff61c6d3d31d560c6f04369ed.setIcon(custom_icon_a79031eeb5189dffb0fb7ff3d4aa3523);
+        var custom_icon_6950a87f60cc13a3bbd04dc1ec1b6412 = L.icon({"iconAnchor": [15, 30], "iconSize": [30, 30], "iconUrl": "https://images.rawpixel.com/image_png_400/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L2pvYjk2NC0wMTItcC5wbmc.png"});
+        marker_3599648254c502cbc07158af3a3277bd.setIcon(custom_icon_6950a87f60cc13a3bbd04dc1ec1b6412);
         
     
-        var popup_72c75729c7f726bd4412b634649f2da2 = L.popup({"maxWidth": 200});
+        var popup_f95b89662656ec30edab5f9d7c6cf789 = L.popup({"maxWidth": 200});
 
         
             
-                var html_8c1c69fbfba71defe1466755f91f306f = $(`<div id="html_8c1c69fbfba71defe1466755f91f306f" style="width: 100.0%; height: 100.0%;">             <b>South Side Hub</b><br>             <i>(Location Not Exact)</i><br>             <i>Updated 1/13/24</i><br>             <strong>Volunteers Needed Ongoing:</strong><br>             • Sorting and organizing supplies<br>             • Cooking and plating food <a href='https://docs.google.com/spreadsheets/d/1uEj9iL9DJyCstrmy2Y1aPkhjR0hJp0iSQnIG4OnXj4E/edit?usp=drivesdk' target='_blank'>Cooking Signup Log</a><br>             • Pickup for distribution<br>             • Moving donations to hubs<br>             <strong>Contact Info:</strong><br>             • Slack: @HiveSouth<br>             • Signal: @HiveSouth             </div>`)[0];
-                popup_72c75729c7f726bd4412b634649f2da2.setContent(html_8c1c69fbfba71defe1466755f91f306f);
+                var html_70bb5f039ae77c6724127cd6770e5da7 = $(`<div id="html_70bb5f039ae77c6724127cd6770e5da7" style="width: 100.0%; height: 100.0%;">             <b>South Side Hub</b><br>             <i>(Location Not Exact)</i><br>             <i>Updated 1/13/24</i><br>             <strong>Volunteers Needed Ongoing:</strong><br>             • Sorting and organizing supplies<br>             • Cooking and plating food <a href='https://docs.google.com/spreadsheets/d/1uEj9iL9DJyCstrmy2Y1aPkhjR0hJp0iSQnIG4OnXj4E/edit?usp=drivesdk' target='_blank'>Cooking Signup Log</a><br>             • Pickup for distribution<br>             • Moving donations to hubs<br>             <strong>Contact Info:</strong><br>             • Slack: @HiveSouth<br>             • Signal: @HiveSouth             </div>`)[0];
+                popup_f95b89662656ec30edab5f9d7c6cf789.setContent(html_70bb5f039ae77c6724127cd6770e5da7);
             
         
 
-        marker_f73fff9ff61c6d3d31d560c6f04369ed.bindPopup(popup_72c75729c7f726bd4412b634649f2da2)
+        marker_3599648254c502cbc07158af3a3277bd.bindPopup(popup_f95b89662656ec30edab5f9d7c6cf789)
         ;
 
         
     
     
-            var marker_5178621ba2f18f6a3c686dbf588126e3 = L.marker(
+            var marker_74d1a35bfca329903ad2c3e53fc2c82b = L.marker(
                 [30.319074618816682, -97.72829152295382],
                 {}
-            ).addTo(map_499a3e04905b6b03064f5c09be357f10);
+            ).addTo(map_936fb90522f88ff9ecc36e455b8ee217);
         
     
-        var custom_icon_e5e4fdd99863d29bf832fb78063d12e6 = L.icon({"iconAnchor": [15, 30], "iconSize": [30, 30], "iconUrl": "https://images.rawpixel.com/image_png_400/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L2pvYjk2NC0wMTItcC5wbmc.png"});
-        marker_5178621ba2f18f6a3c686dbf588126e3.setIcon(custom_icon_e5e4fdd99863d29bf832fb78063d12e6);
+        var custom_icon_a437585b3299dd534c07b4778244a79d = L.icon({"iconAnchor": [15, 30], "iconSize": [30, 30], "iconUrl": "https://images.rawpixel.com/image_png_400/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L2pvYjk2NC0wMTItcC5wbmc.png"});
+        marker_74d1a35bfca329903ad2c3e53fc2c82b.setIcon(custom_icon_a437585b3299dd534c07b4778244a79d);
         
     
-        var popup_48e4632309ccdedf652dd5f8d83c3e83 = L.popup({"maxWidth": 200});
+        var popup_a68e8f4022e88ee3ee741ad5cf247932 = L.popup({"maxWidth": 200});
 
         
             
-                var html_a750c083eee9332a0899e16e91fb277c = $(`<div id="html_a750c083eee9332a0899e16e91fb277c" style="width: 100.0%; height: 100.0%;">             <b>South Side Hub</b><br>             <i>(Location Not Exact)</i><br>             <i>Updated 1/13/24</i><br>             <strong>Volunteers Needed Ongoing:</strong><br>             • Sorting and organizing supplies<br>             • Cooking and plating food <a href='https://docs.google.com/spreadsheets/d/1uEj9iL9DJyCstrmy2Y1aPkhjR0hJp0iSQnIG4OnXj4E/edit?usp=drivesdk' target='_blank'>Cooking Signup Log</a><br>             • Pickup for distribution<br>             • Moving donations to hubs<br>             <strong>Contact Info:</strong><br>             • Slack: @HiveSouth<br>             • Signal: @HiveSouth             </div>`)[0];
-                popup_48e4632309ccdedf652dd5f8d83c3e83.setContent(html_a750c083eee9332a0899e16e91fb277c);
+                var html_24954a495bb21af06c12dcd832c93eb5 = $(`<div id="html_24954a495bb21af06c12dcd832c93eb5" style="width: 100.0%; height: 100.0%;">             <b>Central Side Hub</b><br>             <i>(Location Not Exact)</i><br>             <i>Updated 1/13/24</i><br>             <strong>Volunteers Needed Ongoing:</strong><br>             • Sorting and organizing supplies<br>             • Cooking and plating food <a href='https://docs.google.com/spreadsheets/d/1uEj9iL9DJyCstrmy2Y1aPkhjR0hJp0iSQnIG4OnXj4E/edit?usp=drivesdk' target='_blank'>Cooking Signup Log</a><br>             • Pickup for distribution<br>             • Moving donations to hubs<br>             <strong>Contact Info:</strong><br>             • Slack: @HiveCentral<br>             • Signal: @HiveCentral             </div>`)[0];
+                popup_a68e8f4022e88ee3ee741ad5cf247932.setContent(html_24954a495bb21af06c12dcd832c93eb5);
             
         
 
-        marker_5178621ba2f18f6a3c686dbf588126e3.bindPopup(popup_48e4632309ccdedf652dd5f8d83c3e83)
+        marker_74d1a35bfca329903ad2c3e53fc2c82b.bindPopup(popup_a68e8f4022e88ee3ee741ad5cf247932)
         ;
 
         
     
     
-            var marker_2d5e2a579db749ff1e0f8c609611d315 = L.marker(
+            var marker_67c4a6fdf06e046b6a955c29551d5dfb = L.marker(
                 [30.41353953568781, -97.68427925143202],
                 {}
-            ).addTo(map_499a3e04905b6b03064f5c09be357f10);
+            ).addTo(map_936fb90522f88ff9ecc36e455b8ee217);
         
     
-        var custom_icon_30f6bfd1a2fd49544257853b497e3b77 = L.icon({"iconAnchor": [15, 30], "iconSize": [30, 30], "iconUrl": "https://images.rawpixel.com/image_png_400/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L2pvYjk2NC0wMTItcC5wbmc.png"});
-        marker_2d5e2a579db749ff1e0f8c609611d315.setIcon(custom_icon_30f6bfd1a2fd49544257853b497e3b77);
+        var custom_icon_62c1a8b36cf7e69465a338f49fa7215a = L.icon({"iconAnchor": [15, 30], "iconSize": [30, 30], "iconUrl": "https://images.rawpixel.com/image_png_400/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L2pvYjk2NC0wMTItcC5wbmc.png"});
+        marker_67c4a6fdf06e046b6a955c29551d5dfb.setIcon(custom_icon_62c1a8b36cf7e69465a338f49fa7215a);
         
     
-        var popup_34e20ce1a9d5576e65bab774e369802d = L.popup({"maxWidth": 200});
+        var popup_06fbb894d4eec58e100b9c009590295a = L.popup({"maxWidth": 200});
 
         
             
-                var html_a1008ff1d2049df2d1e39d79dcfdcff3 = $(`<div id="html_a1008ff1d2049df2d1e39d79dcfdcff3" style="width: 100.0%; height: 100.0%;">             <b>North Side Hub</b><br>             <i>(Location Not Exact)</i><br>             <i>Updated 1/13/24</i><br>             <strong>Volunteers Needed Ongoing:</strong><br>             • Sorting and organizing supplies<br>             • Cooking and plating food <a href='https://docs.google.com/spreadsheets/d/1uEj9iL9DJyCstrmy2Y1aPkhjR0hJp0iSQnIG4OnXj4E/edit?usp=drivesdk' target='_blank'>Cooking Signup Log</a><br>             • Pickup for distribution<br>             • Moving donations to hubs<br>             <strong>Contact Info:</strong><br>             • Slack: @HiveNorth<br>             • Signal: @HiveNorth             </div>`)[0];
-                popup_34e20ce1a9d5576e65bab774e369802d.setContent(html_a1008ff1d2049df2d1e39d79dcfdcff3);
+                var html_514e6dfa1fb5b4ef641c65448a69fc89 = $(`<div id="html_514e6dfa1fb5b4ef641c65448a69fc89" style="width: 100.0%; height: 100.0%;">             <b>North Side Hub</b><br>             <i>(Location Not Exact)</i><br>             <i>Updated 1/13/24</i><br>             <strong>Volunteers Needed Ongoing:</strong><br>             • Sorting and organizing supplies<br>             • Cooking and plating food <a href='https://docs.google.com/spreadsheets/d/1uEj9iL9DJyCstrmy2Y1aPkhjR0hJp0iSQnIG4OnXj4E/edit?usp=drivesdk' target='_blank'>Cooking Signup Log</a><br>             • Pickup for distribution<br>             • Moving donations to hubs<br>             <strong>Contact Info:</strong><br>             • Slack: @HiveNorth<br>             • Signal: @HiveNorth             </div>`)[0];
+                popup_06fbb894d4eec58e100b9c009590295a.setContent(html_514e6dfa1fb5b4ef641c65448a69fc89);
             
         
 
-        marker_2d5e2a579db749ff1e0f8c609611d315.bindPopup(popup_34e20ce1a9d5576e65bab774e369802d)
+        marker_67c4a6fdf06e046b6a955c29551d5dfb.bindPopup(popup_06fbb894d4eec58e100b9c009590295a)
         ;
 
         
     
     
-            var marker_75df783150d0ca8de46c4349629c3683 = L.marker(
+            var marker_c97b2531f49152d22eb409404403a641 = L.marker(
                 [30.38048881364346, -97.68539882034327],
                 {}
-            ).addTo(map_499a3e04905b6b03064f5c09be357f10);
+            ).addTo(map_936fb90522f88ff9ecc36e455b8ee217);
         
     
-        var custom_icon_6b63cf6ef160ebb53f1a2d4a20a9ac89 = L.icon({"iconAnchor": [15, 30], "iconSize": [30, 30], "iconUrl": "https://openclipart.org/download/266028/ChurchAvatar.svg"});
-        marker_75df783150d0ca8de46c4349629c3683.setIcon(custom_icon_6b63cf6ef160ebb53f1a2d4a20a9ac89);
+        var custom_icon_603085144c08a2391a395f4c561d1144 = L.icon({"iconAnchor": [15, 30], "iconSize": [30, 30], "iconUrl": "https://openclipart.org/download/266028/ChurchAvatar.svg"});
+        marker_c97b2531f49152d22eb409404403a641.setIcon(custom_icon_603085144c08a2391a395f4c561d1144);
         
     
-        var popup_cdacf3bd0fa64d0da82ad1242d72a848 = L.popup({"maxWidth": 200});
+        var popup_f10a27407168d1ec8f2b27bb344f3272 = L.popup({"maxWidth": 200});
 
         
             
-                var html_6b7175173df21f82df30fcd24cdff161 = $(`<div id="html_6b7175173df21f82df30fcd24cdff161" style="width: 100.0%; height: 100.0%;">             <i>Updated 1/13/25 @ 4:45pm</i><br>             <b>St Mark United Methodist Church</b><br>             601 W Braker Ln, Austin, TX 78753<br>             <strong>Supplies Needed:</strong><br>             &nbsp;&nbsp;• 1 or 2 Large Whiteboards (Preferably on Wheels): To organize tasks, schedules, and volunteer assignments.<br>             <strong>Volunteer Opportunities:</strong><br>             1. Tonight (Set-Up Team):<br>             &nbsp;&nbsp;• Volunteers to help set up and prepare to receive our neighbors.<br>             2. Overnight Monitors:<br>             &nbsp;&nbsp;• A couple of individuals to stay overnight to monitor the space and assist as needed.<br>             3. Morning Breakfast Helpers:<br>             &nbsp;&nbsp;• Volunteers to help prepare and serve breakfast in the morning.<br>             4. Laundry Assistance:<br>             &nbsp;&nbsp;• Individuals to launder the bedding (already separated and ready for cleaning).<br>             5. Donation Sorters and Intake Helpers:<br>             &nbsp;&nbsp;• Volunteers to intake, sort, and organize donations as they arrive.<br>             6. Resource Intake and Distribution:<br>             &nbsp;&nbsp;• Someone to handle sign-ins and distribute resources to those in need.<br>             <strong>Donations Needed:</strong><br>             We are always in need of the following:<br>             &nbsp;&nbsp;• Food (non-perishable items preferred)<br>             &nbsp;&nbsp;• Clothing (in good condition for all ages and sizes)<br>             &nbsp;&nbsp;• Blankets<br>             <strong>Contact Information:</strong><br>             Pierre Nguyễn<br>             512-599-7883<br>             pierre.nguyen@maritime.edu             </div>`)[0];
-                popup_cdacf3bd0fa64d0da82ad1242d72a848.setContent(html_6b7175173df21f82df30fcd24cdff161);
+                var html_1956c03f8a85adf06320f4bf531599ce = $(`<div id="html_1956c03f8a85adf06320f4bf531599ce" style="width: 100.0%; height: 100.0%;">             <i>Updated 1/13/25 @ 4:45pm</i><br>             <b>St Mark United Methodist Church</b><br>             601 W Braker Ln, Austin, TX 78753<br>             <strong>Supplies Needed:</strong><br>             &nbsp;&nbsp;• 1 or 2 Large Whiteboards (Preferably on Wheels): To organize tasks, schedules, and volunteer assignments.<br>             <strong>Volunteer Opportunities:</strong><br>             1. Tonight (Set-Up Team):<br>             &nbsp;&nbsp;• Volunteers to help set up and prepare to receive our neighbors.<br>             2. Overnight Monitors:<br>             &nbsp;&nbsp;• A couple of individuals to stay overnight to monitor the space and assist as needed.<br>             3. Morning Breakfast Helpers:<br>             &nbsp;&nbsp;• Volunteers to help prepare and serve breakfast in the morning.<br>             4. Laundry Assistance:<br>             &nbsp;&nbsp;• Individuals to launder the bedding (already separated and ready for cleaning).<br>             5. Donation Sorters and Intake Helpers:<br>             &nbsp;&nbsp;• Volunteers to intake, sort, and organize donations as they arrive.<br>             6. Resource Intake and Distribution:<br>             &nbsp;&nbsp;• Someone to handle sign-ins and distribute resources to those in need.<br>             <strong>Donations Needed:</strong><br>             We are always in need of the following:<br>             &nbsp;&nbsp;• Food (non-perishable items preferred)<br>             &nbsp;&nbsp;• Clothing (in good condition for all ages and sizes)<br>             &nbsp;&nbsp;• Blankets<br>             <strong>Contact Information:</strong><br>             Pierre Nguyễn<br>             512-599-7883<br>             pierre.nguyen@maritime.edu             </div>`)[0];
+                popup_f10a27407168d1ec8f2b27bb344f3272.setContent(html_1956c03f8a85adf06320f4bf531599ce);
             
         
 
-        marker_75df783150d0ca8de46c4349629c3683.bindPopup(popup_cdacf3bd0fa64d0da82ad1242d72a848)
+        marker_c97b2531f49152d22eb409404403a641.bindPopup(popup_f10a27407168d1ec8f2b27bb344f3272)
         ;
 
         
     
     
-            var marker_bab1ba4ddbe69a8ab6cd4059d986ac91 = L.marker(
+            var marker_78156fe9c2de4042594b4e77615548b1 = L.marker(
                 [30.317052810379195, -97.69242430622069],
                 {}
-            ).addTo(map_499a3e04905b6b03064f5c09be357f10);
+            ).addTo(map_936fb90522f88ff9ecc36e455b8ee217);
         
     
-        var custom_icon_c38414f4e140f82b24d2ab4205284e3a = L.icon({"iconAnchor": [15, 30], "iconSize": [30, 30], "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNKVS3fH5bkKr59LkSd66wO_ljAukXwHWP3Q\u0026s"});
-        marker_bab1ba4ddbe69a8ab6cd4059d986ac91.setIcon(custom_icon_c38414f4e140f82b24d2ab4205284e3a);
+        var custom_icon_8dd3e599f4c25676abfcbcdaf0347050 = L.icon({"iconAnchor": [15, 30], "iconSize": [30, 30], "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNKVS3fH5bkKr59LkSd66wO_ljAukXwHWP3Q\u0026s"});
+        marker_78156fe9c2de4042594b4e77615548b1.setIcon(custom_icon_8dd3e599f4c25676abfcbcdaf0347050);
         
     
-        var popup_b89e4b1455955429e41e43da2f45e33b = L.popup({"maxWidth": 200});
+        var popup_3170caf9733fef78434e69fa68466443 = L.popup({"maxWidth": 200});
 
         
             
-                var html_5385755ebb8949ae18c242a12d0b6be8 = $(`<div id="html_5385755ebb8949ae18c242a12d0b6be8" style="width: 100.0%; height: 100.0%;"><b>Memorial United Methodist Church</b> <br>6100 Berkman Dr, Austin, TX 78723 <br><b>Donations:</b> <br> Hours: ---- <br>Contact: 555-555-5555 <br>Volunteers Needed:  <br></div>`)[0];
-                popup_b89e4b1455955429e41e43da2f45e33b.setContent(html_5385755ebb8949ae18c242a12d0b6be8);
+                var html_91199252129e6497c77ebf652a784d94 = $(`<div id="html_91199252129e6497c77ebf652a784d94" style="width: 100.0%; height: 100.0%;"><b>Memorial United Methodist Church</b> <br>6100 Berkman Dr, Austin, TX 78723 <br><b>Donations:</b> <br> Hours: ---- <br>Contact: 555-555-5555 <br>Volunteers Needed:  <br></div>`)[0];
+                popup_3170caf9733fef78434e69fa68466443.setContent(html_91199252129e6497c77ebf652a784d94);
             
         
 
-        marker_bab1ba4ddbe69a8ab6cd4059d986ac91.bindPopup(popup_b89e4b1455955429e41e43da2f45e33b)
+        marker_78156fe9c2de4042594b4e77615548b1.bindPopup(popup_3170caf9733fef78434e69fa68466443)
         ;
 
         
     
     
-            var marker_24819e8221c9be5d643c4cb1ce43e824 = L.marker(
+            var marker_1d747b06014f0bf3a57d8e878cafa95c = L.marker(
                 [30.278788809077557, -97.68693683558189],
                 {}
-            ).addTo(map_499a3e04905b6b03064f5c09be357f10);
+            ).addTo(map_936fb90522f88ff9ecc36e455b8ee217);
         
     
-        var custom_icon_93bc03e7ca37e094fbf2aa121f9e5a1d = L.icon({"iconAnchor": [15, 30], "iconSize": [30, 30], "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNKVS3fH5bkKr59LkSd66wO_ljAukXwHWP3Q\u0026s"});
-        marker_24819e8221c9be5d643c4cb1ce43e824.setIcon(custom_icon_93bc03e7ca37e094fbf2aa121f9e5a1d);
+        var custom_icon_30873672c07977ace1eed9be6f378af3 = L.icon({"iconAnchor": [15, 30], "iconSize": [30, 30], "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNKVS3fH5bkKr59LkSd66wO_ljAukXwHWP3Q\u0026s"});
+        marker_1d747b06014f0bf3a57d8e878cafa95c.setIcon(custom_icon_30873672c07977ace1eed9be6f378af3);
         
     
-        var popup_97d15b1c7745368488654dab8b6a24a2 = L.popup({"maxWidth": 200});
+        var popup_5ec8e88f8c8d939d2d0c5eab95d9e0d4 = L.popup({"maxWidth": 200});
 
         
             
-                var html_c8c5d1dbf544ca36a4b220b1676f9b79 = $(`<div id="html_c8c5d1dbf544ca36a4b220b1676f9b79" style="width: 100.0%; height: 100.0%;"><b>Hungry Hill Foundation</b> <br> 1189 Springdale Rd <br> Austin, TX 78721 <b> Donations: <br> Hours: ---- <br> Contact: </div>`)[0];
-                popup_97d15b1c7745368488654dab8b6a24a2.setContent(html_c8c5d1dbf544ca36a4b220b1676f9b79);
+                var html_a7929e1656a28d3181358cd522b20fcb = $(`<div id="html_a7929e1656a28d3181358cd522b20fcb" style="width: 100.0%; height: 100.0%;"><b>Hungry Hill Foundation</b> <br> 1189 Springdale Rd <br> Austin, TX 78721 <b> Donations: <br> Hours: ---- <br> Contact: </div>`)[0];
+                popup_5ec8e88f8c8d939d2d0c5eab95d9e0d4.setContent(html_a7929e1656a28d3181358cd522b20fcb);
             
         
 
-        marker_24819e8221c9be5d643c4cb1ce43e824.bindPopup(popup_97d15b1c7745368488654dab8b6a24a2)
+        marker_1d747b06014f0bf3a57d8e878cafa95c.bindPopup(popup_5ec8e88f8c8d939d2d0c5eab95d9e0d4)
         ;
 
         
