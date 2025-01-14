@@ -1,4 +1,4 @@
-### Austin Airbnb Time Series Heatmap
+Various Map Projects mostly using Folium/Leaflets
 
 [Click here to view Austin Airbnb Time Series](https://kentroth.github.io/maps/Austin_Airbnb_time_series_heatmap.html)
 
